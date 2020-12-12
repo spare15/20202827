@@ -12,9 +12,9 @@ int main(void)
 		printf("\t [3] 분식\n");
 		printf("\t [4] 기타\n");
 		printf("메뉴 번호 선택 후 [Enter] : ");
-		scanf("%4", &input);
+		scanf("%d", &input);
 		printf("선택 메뉴 %d\n", input);
-		if (input <= && input >= 1)
+		if (input <=4 && input >= 1)
 			break;
 	} while (1);
 
